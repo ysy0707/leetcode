@@ -1,6 +1,6 @@
-# leetcode
-**思路：单调栈**
-`维持一个单调递增栈，存储每个块中的最大值，最终单调栈的长度就是可分块的大小。
+**768
+思路：单调栈**
+维持一个单调递增栈，存储每个块中的最大值，最终单调栈的长度就是可分块的大小。
 
 class Solution {
     public int maxChunksToSorted(int[] arr) {
@@ -23,6 +23,6 @@ class Solution {
         }
         return stack.size();
     }
-}`
+}
 时间复杂度:O(N)
 空间复杂度:O(N)
